@@ -35,6 +35,7 @@ int main() {
     int current_time = 0;
 
     while (remaining) {
+      
         int completed = 0;  // Flag to check if any process completed in the current time slice
 
         for (int i = 0; i < n; ++i) {
